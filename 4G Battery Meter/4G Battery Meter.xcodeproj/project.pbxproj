@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07F3785C1DD9DA3B0002291F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F3785B1DD9DA3B0002291F /* AppDelegate.m */; };
+		07F3785F1DD9DA3B0002291F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F3785E1DD9DA3B0002291F /* main.m */; };
+		07F378611DD9DA3B0002291F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F378601DD9DA3B0002291F /* Assets.xcassets */; };
+		07F378641DD9DA3B0002291F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F378621DD9DA3B0002291F /* MainMenu.xib */; };
+		07F378771DD9DF040002291F /* empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F378711DD9DF040002291F /* empty.png */; };
+		07F378781DD9DF040002291F /* four.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F378721DD9DF040002291F /* four.png */; };
+		07F378791DD9DF040002291F /* not_connected.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F378731DD9DF040002291F /* not_connected.png */; };
+		07F3787A1DD9DF040002291F /* one.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F378741DD9DF040002291F /* one.png */; };
+		07F3787B1DD9DF040002291F /* three.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F378751DD9DF040002291F /* three.png */; };
+		07F3787C1DD9DF040002291F /* two.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F378761DD9DF040002291F /* two.png */; };
+		07F378801DD9EF620002291F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F3787F1DD9EF620002291F /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07F378571DD9DA3B0002291F /* 4G Battery Meter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "4G Battery Meter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F3785A1DD9DA3B0002291F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07F3785B1DD9DA3B0002291F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07F3785E1DD9DA3B0002291F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07F378601DD9DA3B0002291F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07F378631DD9DA3B0002291F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		07F378651DD9DA3B0002291F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07F378711DD9DF040002291F /* empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = empty.png; path = resources/empty.png; sourceTree = "<group>"; };
+		07F378721DD9DF040002291F /* four.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = four.png; path = resources/four.png; sourceTree = "<group>"; };
+		07F378731DD9DF040002291F /* not_connected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = not_connected.png; path = resources/not_connected.png; sourceTree = "<group>"; };
+		07F378741DD9DF040002291F /* one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = one.png; path = resources/one.png; sourceTree = "<group>"; };
+		07F378751DD9DF040002291F /* three.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = three.png; path = resources/three.png; sourceTree = "<group>"; };
+		07F378761DD9DF040002291F /* two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = two.png; path = resources/two.png; sourceTree = "<group>"; };
+		07F3787F1DD9EF620002291F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = resources/icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07F378541DD9DA3B0002291F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07F3784E1DD9DA3B0002291F = {
+			isa = PBXGroup;
+			children = (
+				07F378591DD9DA3B0002291F /* 4G Battery Meter */,
+				07F378581DD9DA3B0002291F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07F378581DD9DA3B0002291F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07F378571DD9DA3B0002291F /* 4G Battery Meter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07F378591DD9DA3B0002291F /* 4G Battery Meter */ = {
+			isa = PBXGroup;
+			children = (
+				07F3787E1DD9DF1B0002291F /* resources */,
+				07F3785A1DD9DA3B0002291F /* AppDelegate.h */,
+				07F3785B1DD9DA3B0002291F /* AppDelegate.m */,
+				07F378601DD9DA3B0002291F /* Assets.xcassets */,
+				07F378621DD9DA3B0002291F /* MainMenu.xib */,
+				07F378651DD9DA3B0002291F /* Info.plist */,
+				07F3785D1DD9DA3B0002291F /* Supporting Files */,
+			);
+			path = "4G Battery Meter";
+			sourceTree = "<group>";
+		};
+		07F3785D1DD9DA3B0002291F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07F3785E1DD9DA3B0002291F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07F3787E1DD9DF1B0002291F /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				07F378711DD9DF040002291F /* empty.png */,
+				07F378721DD9DF040002291F /* four.png */,
+				07F378731DD9DF040002291F /* not_connected.png */,
+				07F378741DD9DF040002291F /* one.png */,
+				07F378751DD9DF040002291F /* three.png */,
+				07F3787F1DD9EF620002291F /* icon.png */,
+				07F378761DD9DF040002291F /* two.png */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07F378561DD9DA3B0002291F /* 4G Battery Meter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F378681DD9DA3B0002291F /* Build configuration list for PBXNativeTarget "4G Battery Meter" */;
+			buildPhases = (
+				07F378531DD9DA3B0002291F /* Sources */,
+				07F378541DD9DA3B0002291F /* Frameworks */,
+				07F378551DD9DA3B0002291F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4G Battery Meter";
+			productName = "4G Battery Meter";
+			productReference = 07F378571DD9DA3B0002291F /* 4G Battery Meter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07F3784F1DD9DA3B0002291F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Carl;
+				TargetAttributes = {
+					07F378561DD9DA3B0002291F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 07F378521DD9DA3B0002291F /* Build configuration list for PBXProject "4G Battery Meter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07F3784E1DD9DA3B0002291F;
+			productRefGroup = 07F378581DD9DA3B0002291F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07F378561DD9DA3B0002291F /* 4G Battery Meter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07F378551DD9DA3B0002291F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F3787A1DD9DF040002291F /* one.png in Resources */,
+				07F378791DD9DF040002291F /* not_connected.png in Resources */,
+				07F378801DD9EF620002291F /* icon.png in Resources */,
+				07F3787B1DD9DF040002291F /* three.png in Resources */,
+				07F378611DD9DA3B0002291F /* Assets.xcassets in Resources */,
+				07F3787C1DD9DF040002291F /* two.png in Resources */,
+				07F378641DD9DA3B0002291F /* MainMenu.xib in Resources */,
+				07F378771DD9DF040002291F /* empty.png in Resources */,
+				07F378781DD9DF040002291F /* four.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07F378531DD9DA3B0002291F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F3785F1DD9DA3B0002291F /* main.m in Sources */,
+				07F3785C1DD9DA3B0002291F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07F378621DD9DA3B0002291F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F378631DD9DA3B0002291F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07F378661DD9DA3B0002291F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		07F378671DD9DA3B0002291F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		07F378691DD9DA3B0002291F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "4G Battery Meter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cyto.-G-Battery-Meter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07F3786A1DD9DA3B0002291F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "4G Battery Meter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cyto.-G-Battery-Meter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07F378521DD9DA3B0002291F /* Build configuration list for PBXProject "4G Battery Meter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F378661DD9DA3B0002291F /* Debug */,
+				07F378671DD9DA3B0002291F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07F378681DD9DA3B0002291F /* Build configuration list for PBXNativeTarget "4G Battery Meter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F378691DD9DA3B0002291F /* Debug */,
+				07F3786A1DD9DA3B0002291F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07F3784F1DD9DA3B0002291F /* Project object */;
+}
