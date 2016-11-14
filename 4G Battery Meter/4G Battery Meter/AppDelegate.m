@@ -13,7 +13,7 @@
 @property (weak) IBOutlet NSWindow *window;
 @property (strong, nonatomic) NSStatusItem *statusItem;
 @property (assign, nonatomic) BOOL darkModeOn;
-@property (assign, nonatomic) NSString *percent;
+@property (assign, nonatomic) NSNumber *percent;
 
 @end
 
@@ -27,13 +27,13 @@
     
     NSMenu *menu = [[NSMenu alloc] init];
     [menu addItemWithTitle:@"Quit" action:@selector(terminate:) keyEquivalent:@""];
-    _statusItem.menu = menu; 
+    _statusItem.menu = menu;
     
     // Run once to update non-connected state
     [self getBatteryPercentAndSetImage];
     
     
-    [NSTimer scheduledTimerWithTimeInterval:60.0 target:self selector:@selector(getBatteryPercentAndSetImage) userInfo:nil repeats:YES];
+    [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(getBatteryPercentAndSetImage) userInfo:nil repeats:YES];
     
 }
 
@@ -64,13 +64,13 @@
     _percent = json[@"battery_vol_percent"];
     NSLog(@"Percent: %@", _percent);
     
-    if(_percent > 75){
+    if([_percent intValue] > 75){
         _statusItem.image = [NSImage imageNamed:@"four.png"];
-    } else if(_percent > 50 && _percent <= 75){
+    } else if([_percent intValue] > 50 && [_percent intValue] <= 75){
         _statusItem.image = [NSImage imageNamed:@"three.png"];
-    } else if(_percent > 25 && _percent <= 50){
+    } else if([_percent intValue] > 25 && [_percent intValue] <= 50){
         _statusItem.image = [NSImage imageNamed:@"two.png"];
-    } else if(_percent >= 0 && _percent <=25){
+    } else if([_percent intValue] >=0 && [_percent intValue] <=25){
         _statusItem.image = [NSImage imageNamed:@"one.png"];
     }
 }
