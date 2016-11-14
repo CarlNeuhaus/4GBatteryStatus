@@ -55,14 +55,12 @@
     NSData *oResponseData = [NSURLConnection sendSynchronousRequest:request returningResponse:&responseCode error:&error];
     
     if([responseCode statusCode] != 200){
-        NSLog(@"Error getting %@, HTTP status code %li", url, (long)[responseCode statusCode]);
         _statusItem.image = [NSImage imageNamed:@"not_connected.png"];
         return;
     }
 
     NSDictionary *json = [NSJSONSerialization JSONObjectWithData:oResponseData options:kNilOptions error:&error];
     _percent = json[@"battery_vol_percent"];
-    NSLog(@"Percent: %@", _percent);
     
     if([_percent intValue] > 75){
         _statusItem.image = [NSImage imageNamed:@"four.png"];
