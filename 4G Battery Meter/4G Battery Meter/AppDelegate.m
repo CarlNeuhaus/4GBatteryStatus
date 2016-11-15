@@ -12,7 +12,6 @@
 
 @property (weak) IBOutlet NSWindow *window;
 @property (strong, nonatomic) NSStatusItem *statusItem;
-@property (assign, nonatomic) BOOL darkModeOn;
 @property (assign, nonatomic) NSNumber *percent;
 
 @end
